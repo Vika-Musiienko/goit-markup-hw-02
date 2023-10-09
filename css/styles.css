@@ -39,12 +39,12 @@ flex-shrink: 0;
 }
 .contacts-list {
     letter-spacing: 0.02em; 
-    line-height: 1.5 ;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #434455;
+    color: #434455;
 }
 .contacts-list:hover,
-.contacts-list:focus{
+.contacts-list:focus {
   color: #404bbf;
 }
 .section-page-item {
