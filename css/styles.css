@@ -4,9 +4,6 @@
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .nav-list {
@@ -14,16 +11,35 @@
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.32px;
+
+}
+.body-page{
+    color: #434455;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--WHITE, #FFF);
+font-family: "Roboto", sans-serif;
 }
 /* main page */
+
 .section-page {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-height: 600px;
 flex-shrink: 0;
+}
+.section-page:hover,
+.section-page:focus{
+ color:  #404bbf;
+}
+.adress-contacts {
+    font-style: normal;
+}
+.contacts-link link{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+.contacts-link link:hover,
+.contacts-link link:focus {
+  color: #404bbf;
 }
 .section-page-item {
     color: var(--WHITE, #FFF);
@@ -76,10 +92,25 @@ font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
+line-height: 1.11;
+}
+.staff-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+}
+
+.staff-profesion {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /* Footer */
 .footer-page {
     background: var(--NAVY-BLUE, #2E2F42);
+
 }
 .footer-page-item {
     color: var(--CLOUD, #F4F4FD);
@@ -92,21 +123,22 @@ letter-spacing: 0.32px;
 }
 .logo {
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+font-family: Raleway; sans-serif,
 font-size: 18px;
 font-style: normal;
-font-weight: 700;
-line-height: 21px;
+font-weight: 700 ;
+line-height: 1.17 
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .logo-studio {
     color: var(--CLOUD, #F4F4FD);
-font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+line-height: 1.17;
 }
