@@ -38,13 +38,13 @@ flex-shrink: 0;
     font-style: normal;
 }
 .contacts-list {
-    letter-spacing: 0.02em 
-    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    line-height: 1.5 ;
     letter-spacing: 0.02em;
     color:  #434455;
 }
-.contacts-link link:hover,
-.contacts-link link:focus{
+.contacts-list:hover,
+.contacts-list:focus{
   color: #404bbf;
 }
 .section-page-item {
