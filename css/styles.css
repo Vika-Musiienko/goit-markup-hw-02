@@ -94,6 +94,9 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 line-height: 1.11;
 }
+.our-team-list {
+    background-color: #FFFFFF 
+}
 .staff-name {
     font-weight: 500;
     font-size: 20px;
@@ -106,6 +109,34 @@ line-height: 1.11;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+/* Portfolio */
+.portfolio-page {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+}
+.portfolio-title-item {
+    color: #434455;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5px;
+letter-spacing: 0.02em;
 }
 /* Footer */
 .footer-page {
@@ -123,12 +154,12 @@ letter-spacing: 0.32px;
 }
 .logo {
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway; sans-serif,
-font-size: 18px;
+font-family: Raleway, sans-serif;
+font-size: 18px ;
 font-style: normal;
 font-weight: 700 ;
-line-height: 1.17 
-letter-spacing: 0.54px;
+line-height: 1.17 ; 
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .logo-studio {
