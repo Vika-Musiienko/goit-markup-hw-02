@@ -1,14 +1,14 @@
 /* header */
 .logo-studio-page {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     text-transform: uppercase;
 }
 .nav-list {
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -50,7 +50,7 @@ flex-shrink: 0;
 .section-page-item {
     color: var(--WHITE, #FFF);
 text-align: center;
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
@@ -76,20 +76,20 @@ cursor: pointer;
 }
 .benefits-list-item {
     color: var(--NAVY-BLUE, #2E2F42);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.4px;
 }
 .benefits-list-p {
     color: var(--SLATE, #434455);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; 
+line-height: 1.5; 
 letter-spacing: 0.32px;
 }
 /* Our team */
@@ -99,11 +99,10 @@ letter-spacing: 0.32px;
 .our-team {
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 line-height: 1.11;
@@ -131,7 +130,7 @@ line-height: 1.11;
 .portfolio-page {
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -148,7 +147,7 @@ text-transform: capitalize;
 }
 .portfolio-title-item {
     color: #434455;
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -162,20 +161,20 @@ letter-spacing: 0.02em;
 }
 .footer-page-item {
     color: var(--CLOUD, #F4F4FD);
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 .logo {
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway, sans-serif;
-font-size: 18px ;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
 font-style: normal;
-font-weight: 700 ;
-line-height: 1.17 ; 
+font-weight: 700;
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -185,7 +184,6 @@ text-transform: uppercase;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 line-height: 1.17;
