@@ -37,14 +37,14 @@ flex-shrink: 0;
 .adress-contacts {
     font-style: normal;
 }
-.contacts-list {
+.contacts-list .link {
     letter-spacing: 0.02em; 
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contacts-list:hover,
-.contacts-list:focus {
+.contacts-list .link:hover,
+.contacts-list .link:focus {
   color: #404bbf;
 }
 .section-page-item {
@@ -64,6 +64,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
+cursor: pointer;
 }
 .buttom-item:hover,
 .buttom-item:focus {
